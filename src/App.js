@@ -37,6 +37,12 @@ curDate.setDate(curDate.getDate() + 1);
 
 return count;
 }
+  /*
+  la fonction jours_ouverable calcul la durrée entre deux date sans tenir compte les weekends
+  TODO : ajouter une fonction qui test si un jour est férié ou puis inclure cette 
+  fonction dans la fonction jours_ouverable
+  
+  */
 
   handleSubmit = event => {
     
