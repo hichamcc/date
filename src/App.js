@@ -4,7 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 class calculDate extends Component {
   constructor(props) {
     super(props);
-    this.state = {date1: ''};
+    this.state = {
+      date1: '', 
+      date2:'',
+      check:false,
+      duree: ''
+    };
     this.state = {date2: ''};
     this.state = {check: false};
     this.state = {duree: ''};
@@ -70,6 +75,7 @@ return count;
     this.setState({duree:'nombres de jours entre les deux date choisi :'+d});    
   }
   render() {
+    
     return (
       <div id="root">
       <div className="row">
