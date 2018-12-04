@@ -92,8 +92,8 @@ return count;
          <input name="date2" className="form-control" type="date" value={this.state.date2} onChange={this.handleChange} />
         </div>
         <div className="form-group">
-          <input type="checkbox" name="check" class="form-check-input" checked={this.state.check} onChange={this.handleChange}/>
-          <label class="form-check-label" for="exampleCheck1">Jours ouverable</label>
+          <input type="checkbox" name="check" className="form-check-input" checked={this.state.check} onChange={this.handleChange}/>
+          <label className="form-check-label" for="exampleCheck1">Jours ouverable</label>
         </div>
         <div className="form-group">
         <input type="submit" className="btn btn-primary" value="calculer" />
