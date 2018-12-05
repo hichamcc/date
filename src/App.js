@@ -10,9 +10,6 @@ class calculDate extends Component {
       check:false,
       duree: ''
     };
-    this.state = {date2: ''};
-    this.state = {check: false};
-    this.state = {duree: ''};
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     
@@ -49,7 +46,7 @@ return count;
   
   */
 
-  handleSubmit = event => {
+  handleSubmit (event) {
     
     
     event.preventDefault();
